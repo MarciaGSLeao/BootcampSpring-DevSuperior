@@ -13,6 +13,4 @@ public class RentalService {
 		this.taxService = taxService;
 	}
 	
-	
-
 }

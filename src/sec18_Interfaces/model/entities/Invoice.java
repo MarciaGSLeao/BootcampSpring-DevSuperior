@@ -34,5 +34,4 @@ public class Invoice {
 		return getBasicPayment() + getTax();
 	}
 
-	
 }

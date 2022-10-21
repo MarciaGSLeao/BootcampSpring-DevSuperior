@@ -1,0 +1,5 @@
+The Java Project in this directory, is a project where was used the most popular Java framworks from market:
+Hibernate to data persistence in relational data bases and Spring Boot.
+
+O Projeto Java deste diretório, é um projeto onde foi utilizado os frameworks Java mais populares do mercado:
+Hibernate para persistência de dados em banco de dados relacionais e o Spring Boot.

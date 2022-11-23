@@ -10,7 +10,7 @@ import model.entities.Vehicle;
 import model.services.BrazilTaxService;
 import model.services.RentalService;
 
-public class Program {
+public class ProgramVehicleRentalService {
 
 	public static void main(String[] args) throws ParseException {
 		

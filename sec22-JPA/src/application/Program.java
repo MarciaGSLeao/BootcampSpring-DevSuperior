@@ -10,9 +10,10 @@ public class Program {
 		People p2 = new People(2, "Juiana da Silva", "juliana@gmail.com");
 		People p3 = new People(3, "Alex da Silva", "alex@gmail.com");
 		
-		System.out.println(p1.toString());
-		System.out.println(p2.toString());
-		System.out.println(p3.toString());
+		System.out.println(p1);
+		System.out.println(p2);
+		System.out.println(p3);
 		
 	}
+	
 }

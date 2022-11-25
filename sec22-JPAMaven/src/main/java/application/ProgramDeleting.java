@@ -13,7 +13,8 @@ public class ProgramDeleting {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("sec22-JPAMaven");
 		EntityManager em = emf.createEntityManager();
 		
-		// CONSULTANDO OS DADOS DO BANCO DE DADOS
+		// PARA SER POSSÍVEL EXCLUIR UM REGISTRO DO BANCO DE DADOS É NECESSÁRIO CONSULTAR OS DADOS NO BANCO DE DADOS
+		// PARA QUE O REGISTRO SEJA CAPTURADO E TRANSFORMADO EM UM OBJETO MONITORADO PELO JPA.
 		People person = em.find(People.class, 1);
 		System.out.println(person);
 		em.getTransaction().begin();

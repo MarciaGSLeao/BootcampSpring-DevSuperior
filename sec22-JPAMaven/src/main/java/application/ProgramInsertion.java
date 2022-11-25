@@ -25,6 +25,8 @@ public class ProgramInsertion {
 		em.getTransaction().commit();
 		
 		System.out.println("Processo concluído!");
+		em.close();
+		emf.close();
 		
 	}
 }

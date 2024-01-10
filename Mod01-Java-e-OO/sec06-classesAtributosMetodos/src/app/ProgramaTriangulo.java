@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import entidades.Triangulo;
 
-public class Programa {
+public class ProgramaTriangulo {
 	
 	public static void main(String[] args) {
 		

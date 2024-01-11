@@ -3,11 +3,12 @@ package app;
 import java.util.Scanner;
 
 import entidades.Product;
+import entidades.Quadrado;
 
 public class ProgramaProduto {
 	
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
 		
 		Product prodA = new Product();
@@ -34,6 +35,7 @@ public class ProgramaProduto {
 		System.out.println(prodA.toString());
 		
 		sc.close();		
+
 	}
 
 }

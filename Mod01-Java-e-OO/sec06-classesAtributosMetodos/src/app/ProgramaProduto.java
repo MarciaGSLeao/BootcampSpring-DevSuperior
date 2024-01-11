@@ -31,6 +31,8 @@ public class ProgramaProduto {
 		System.out.printf("Estoque atualizado: %d kgs. %n", prodA.getQuantity());
 		System.out.printf("Estoque(R$) atualizado: R$ %.2f%n%n", prodA.totalValueInStock());
 		
+		System.out.println(prodA.toString());
+		
 		sc.close();		
 	}
 

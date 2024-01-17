@@ -1,5 +1,9 @@
 package app;
 
+import java.util.Scanner;
+
+import entidade.Conta;
+
 public class Programa {
 
 	public static void main(String[] args) {
@@ -11,6 +15,30 @@ public class Programa {
 		 * APÓS EXERCÍCIO FINALIZADO, INICIAR SEÇÃO 8 DO MÓDULO JAVA-OO.
 		 */
 		
+		Scanner sc = new Scanner(System.in);
+		Conta conta = new Conta(0,"");
 		
+		System.out.println("Informe o número da conta: ");
+		conta.setNumber(sc.nextInt());
+		System.out.println("Informe o nome do titular da conta: ");
+		sc.next();
+		conta.setHolder(sc.nextLine());
+		
+		System.out.println("Haverá depósito inicial (s/n)?");
+		String confirmacao = sc.nextLine();
+		confirmacao = confirmacao.toLowerCase();
+		char opcao = confirmacao.charAt(0);
+		
+		if (opcao == 's'){
+			System.out.print("Informe o valor do depósito inicial:");
+			conta.setBalance(sc.nextDouble());
+			System.out.println("\nDADOS DA CONTA:");
+			System.out.printf("CONTA: %d, TITULAR: %s, SALDO: %.2f%n",
+					conta.getNumber(),
+					conta.getHolder(),
+					conta.getBalance());
+		}
+		
+		sc.close();
 	}
 }

@@ -1,5 +1,6 @@
 package exercicios;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 // TRABALHANDO COM VETORES
@@ -8,7 +9,8 @@ public class Ex01 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
+
+		System.out.println("Informe o total de idades que deseja somar: ");
 		int qtdNumeros = sc.nextInt();
 		double[] listaDeIdades = new double[qtdNumeros];
 		double soma = 0;

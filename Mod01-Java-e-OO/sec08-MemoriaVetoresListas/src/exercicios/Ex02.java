@@ -37,7 +37,7 @@ public class Ex02 {
 
 		System.out.printf("%nPreço total dos produtos: %.2f%n", precoTotal);
 		System.out.printf("Preço médio dos produtos: %.2f%n", precoMedio);
- 
+
 		sc.close();
 		
 	}

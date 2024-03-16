@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sec08-MemoriaVetoresListas.iml" filepath="$PROJECT_DIR$/sec08-MemoriaVetoresListas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mod01-Java-e-OO.iml" filepath="$PROJECT_DIR$/.idea/Mod01-Java-e-OO.iml" />
     </modules>
   </component>
 </project>

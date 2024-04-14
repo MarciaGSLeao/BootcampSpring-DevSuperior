@@ -44,10 +44,7 @@ public class Conta {
 	
 	// SAQUE
 	public void withdraw(double amount) {
-		this.balance -= (amount + taxaDeSaque)
-
-
-		;
+		this.balance -= (amount + taxaDeSaque);
 	}
 
 	@Override

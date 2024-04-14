@@ -24,31 +24,18 @@ public class AplicacaoProduto {
         Produto p1 = new Produto(nome, preco);
         p1.adicionarProduto(quantidade);
 
-        System.out.println("DADOS DO PRODUTO: ");
-        System.out.println(p1.getNome());
-        System.out.println(p1.getPreco());
-        System.out.println(p1.getQuantidade());
-        System.out.println(p1.valorTotalEmEstoque());
+        System.out.println("\nDADOS DO PRODUTO\n" + p1);
 
-        System.out.println("Informe a quantidade que deseja adicionar ao estoque: ");
+        System.out.println("\nInforme a quantidade que deseja adicionar ao estoque: ");
         p1.adicionarProduto(sc.nextInt());
 
-        System.out.println("DADOS DO PRODUTO: ");
-        System.out.println(p1.getNome());
-        System.out.println(p1.getPreco());
-        System.out.println(p1.getQuantidade());
-        System.out.println(p1.valorTotalEmEstoque());
+        System.out.println("\nDADOS DO PRODUTO: \n" + p1);
 
-        System.out.println("Informe a quantidade que deseja remover do estoque: ");
+        System.out.println("\nInforme a quantidade que deseja remover do estoque: ");
         p1.removerProduto(sc.nextInt());
 
-        System.out.println("DADOS DO PRODUTO: ");
-        System.out.println(p1.getNome());
-        System.out.println(p1.getPreco());
-        System.out.println(p1.getQuantidade());
-        System.out.println(p1.valorTotalEmEstoque());
+        System.out.println("\nDADOS DO PRODUTO: \n" + p1);
 
         sc.close();
-
     }
 }
